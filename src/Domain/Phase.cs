@@ -1,4 +1,4 @@
-﻿namespace DuelEngine {
+namespace DuelEngine {
     public enum Phase {
         Draw,
         Main,

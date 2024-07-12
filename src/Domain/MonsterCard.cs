@@ -1,4 +1,4 @@
-﻿namespace DuelEngine.Domain {
+namespace DuelEngine.Domain {
     public interface MonsterCard : Card {
         Attribute Attribute { get; set; }
         bool IsLegend { get; set; }

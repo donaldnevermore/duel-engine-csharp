@@ -1,4 +1,4 @@
-﻿namespace DuelEngine.Domain {
+namespace DuelEngine.Domain {
     public enum Attribute {
         Light,
         Dark,

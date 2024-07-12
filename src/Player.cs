@@ -1,4 +1,4 @@
-﻿// Copyright (c) 2020 donaldnevermore
+// Copyright (c) 2020 donaldnevermore
 // All rights reserved.
 // Licensed under the Apache License, Version 2.0. See the LICENSE file in the project root for more information.
 
@@ -71,8 +71,7 @@ namespace DuelEngine {
                 while (Hand.Count < Duel.DrawLimit) {
                     Draw(1);
                 }
-            }
-            else {
+            } else {
                 Draw(1);
             }
         }
@@ -115,12 +114,10 @@ namespace DuelEngine {
             if (amount > 0) {
                 opponent.LifePoint -= amount;
                 opponent.Destroy(targetIndex);
-            }
-            else if (amount < 0) {
+            } else if (amount < 0) {
                 LifePoint -= Math.Abs(amount);
                 Destroy(monsterIndex);
-            }
-            else {
+            } else {
                 Destroy(monsterIndex);
                 opponent.Destroy(targetIndex);
             }

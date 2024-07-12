@@ -1,4 +1,4 @@
-﻿using DuelEngine.Domain;
+using DuelEngine.Domain;
 
 namespace DuelEngine.MonsterCards {
     public sealed class DarkSorcerer : MonsterCard {
